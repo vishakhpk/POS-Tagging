@@ -3,6 +3,9 @@
 Problem:
 In corpus linguistics, part-of-speech tagging (POS tagging or POST), also called grammatical tagging or word-category disambiguation, is the process of marking up a word in a text (corpus) as corresponding to a particular part of speech, based on both its definition, as well as its context.
 
+Dataset Used:
+- CONLL-2000 text data
+
 Implementation:
 - Implemented a deep network to tackle the problem of POS Tagging
 - Deep network trained with features including word contexts, preceding and succeeding words and orthographic text features to classify words
@@ -15,6 +18,7 @@ Imports: (keep these up to date to run code)
 - Theano
 - Keras wrapper for theano
 - SKlearn
+- NLTK
 - Numpy
 
 Instructions:
